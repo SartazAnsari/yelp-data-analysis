@@ -36,7 +36,7 @@ For better readability due to custom client display functionality, use [nbviewer
    cd yelp-data-analysis
    ```
 
-2. #### Environment setup
+2. **Environment setup**
     * Using **Python**
         1. Create virtual environment: 
             ```bash
@@ -77,7 +77,7 @@ For better readability due to custom client display functionality, use [nbviewer
             conda install pandas matplotlib seaborn mysql-connector-python sqlalchemy psutil
             ```
 
-3. #### [ IF NOT SET BEFORE ] Setting up the Kaggle API
+3. **[ IF NOT SET BEFORE ] Setting up the Kaggle API**
     * Sign in to **Kaggle** and navigate to the **Account** tab of your user profile.
     * Scroll down to the **API** section and click on **Create New API Token**. 
     * This will download a file named ```kaggle.json``` containing your API credentials.
