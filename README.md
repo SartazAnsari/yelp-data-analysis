@@ -1,15 +1,13 @@
 # Yelp Dataset Analysis
 
 ## Overview
-This project involves analyzing the Yelp dataset to understand the characteristics of businesses, user interactions, and trends within the Yelp community. The dataset includes information on businesses, user reviews, check-ins, tips, and user data. This project provides two methods for performing analysis.
+This project involves analyzing the Yelp dataset to understand the characteristics of businesses, user interactions, and trends within the Yelp community. The dataset used can be found [here](https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset) and it includes information on businesses, user reviews, check-ins, tips, and user data. This project provides two methods for performing analysis.
 1. **Analysis on Kaggle Notebook:**
     * In this method, you perform the analysis directly on Kaggle using only Python.
     * You can add the dataset from Kaggle to the notebook without needing to download it to your local system.
 2. **Analysis on Local System Analysis with MySQL:**
     * In this method, you download the dataset to your local system and create a MySQL database.
     * The data is uploaded into the MySQL database, and analysis is performed using a combination of Python and SQL.
-
-***Note:** The original dataset is provided by [Yelp, Inc.](https://www.kaggle.com/organizations/yelp-dataset) in Kaggle and can be found [here](https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset). Credit goes to the dataset provider for making it available.*
 
 ## Viewing the Notebook
 For better readability due to custom client display functionality, use [nbviewer](https://nbviewer.org). This provides an improved display as GitHub's notebook viewer does not execute the code.
@@ -36,7 +34,7 @@ For better readability due to custom client display functionality, use [nbviewer
    cd yelp-data-analysis
    ```
 
-2. **Environment setup**
+2. **[ CHOOSE ANYONE ] Environment setup**
     * Using **Python**
         1. Create virtual environment: 
             ```bash
