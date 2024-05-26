@@ -61,15 +61,15 @@ For better readability due to custom client display functionality, use [nbviewer
             ```
     * Using **Conda**
         1. Install **Miniconda/Anaconda**: Download and install from [conda.io](https://conda.io).
-        1. Create a new environment:
+        2. Create a new environment:
             ```bash
             conda create --name yelp-data-analysis-env python=3.12
             ```
-        2. Activate the environment:
+        3. Activate the environment:
             ```bash
             conda activate yelp-data-analysis-env
             ```
-        3. Install the required packages:
+        4. Install the required packages:
             ```bash
             conda install -c conda-forge notebook
             conda install -c conda-forge ipykernel
